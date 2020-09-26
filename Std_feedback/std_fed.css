@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;/*to adjust width*/
+}
+/*_________________________ html element style_____________________*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    height:100%;
+    font-size: large;
+    
+}
+a{
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+p{
+    /* font-size: 1.6rem; */
+    margin-bottom: 0.5em;
+    /* letter-spacing: 0.15em; */
+    font-weight: 500;
+ }
+ .text-light{
+    background-color:#f7e2e4;
+}
+.text-red{
+    color:#e62946;
+
+}
+.important{
+    color:red;
+    display: inline;/* h1 is block level hence convert it into block level element */
+}
+.form{
+    position: relative;/* to it at center with respect to header which is parent*/
+    
+}
+.btn{
+ 
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0.5em; 
+}
+.container{
+    max-width: 1200px; /*Helpful in small screen arrengements without scrollbar arrenges the text*/
+    width: 200px;
+    margin:0 auto;
+}
+
+.submit{
+    float:right;
+    width:9%;
+    text-align: center;
+  
+}
+.btn-secondery{
+    border: 2px solid #050505;
+    border-radius: 1.5em;
+    color:#050505;
+    background-color: #f4f4f4;
+    position: absolute; 
+}
+
+.btn-secondery:hover{
+    background-color: #fcf3f2;
+}
+
+.box1,.box2,.box3,.box4{   
+   margin:20px auto;
+   border: 1px solid rgb(24, 23, 23);
+   box-shadow: thistle;
+   width:700px;
+   padding: 20px;
+   background-color: rgb(255, 255, 255);
+}
+.box-wrapper{
+   border-radius: 1rem;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.274);
+
+}
+
+h6{
+    display: inline;
+}
+a:visited{
+    color:rgb(185, 36, 36);
+}
+a:hover{
+    color:darkblue;
+}
+a:active{
+    color:black;
+}
+
+/*
+INSTED OF BOX CREATES A LINE TO TAKE INPUT
+input{
+    border: none; 
+    border-bottom: 2px solid black;
+}  */
