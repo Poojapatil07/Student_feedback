@@ -1,1 +1,93 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="stylesheet" href="std_fed.css">
+</head>
+<body class="text-light">
+<form class="form" action   ="std_feedback_page2.html">
+    <div class="box1 box-wrapper">
+        <label for="summery">Students are requested to fill the form accurately.
+            <p>The name and photo associated with your Google account will be recorded when you upload
+                files and submit this form.<a href="https://mail.google.com/ "class="account">Switch account.</a>
+            </p>
+            <h6 class="important"> Required*</h6>
+        </label>
+    </div>  
+    <div  class="box2 box-wrapper"> 
+        <label for="email">Email address<h6 class="important">*</h6></label><br>
+        <input type="email" id="email" placeholder="Your email" required>
+    </div>
+    <div class="box3 box-wrapper">
+        <label for="name">Full Name<br><br><h6>First and Last name</h6><h6 class="important">*</h6></label><br>
+        <input type="text"  id="name" placeholder="Your answer" required>
+    </div>
+
+    <div class="box3 box-wrapper">
+        <label for="number">Phone number</label><h6 class="important">*</h6><br>
+        <input type="number" maxlength="10" id="number" placeholder="Your answer" required>
+         
+    </div>
+    <div class="box3 box-wrapper">
+        <label for="internet">Do you have access to good and uninterrupted internet<br><br><h6>This is coplusory for all candidates,if selected. Fiexed broadband internet connection is prefered</h6></label><br>
+        
+        <label for="yes"> Yes </label>
+        <input type="radio" name="yes" id="" value="yes" >
+        
+        <label for="no"> No </label>
+        <input type="radio" name="yes" id="" value="no" ><br><br>
+     
+    </div>
+    <div class="box3 box-wrapper"> 
+        <label for="clg_name">Your college Name</label><br>
+        <input type="text" id="clg_name" placeholder="Your answer" required>
+    </div>
+    <div class="box3 box-wrapper">
+        <label for="university_name">Your University Name</label><br>
+        <input type="text" id="university_name" placeholder="Your answer" required>
+    </div>
+    <div class="box3 box-wrapper">
+        <label for="degree">Year of degree</label><br><br>
+        <label for="first_yr"> First Year</label>
+        <input type="radio" name="FirstYear" id="" value="first_yr" ><br><br>
+        
+        <label for="snd_yr"> Second Year   </label>
+        <input type="radio" name="FirstYear" id="" value="snd_yr" ><br><br>
+
+        <label for="third_yr"> Third Year   </label>
+        <input type="radio" name="FirstYear" id="" value="third_yr" ><br><br>
+
+        <label for="final_yr"> Final Year   </label>
+        <input type="radio" name="FirstYear" id="" value="final_yr" ><br><br>
+    </div>
+    
+    <div class="box3 box-wrapper">
+     <label for="graduation_yr"> Graduation Year</label><br><br>
+
+      <label for="2020">2020</label>
+     <input type="radio" name="2020" id="" value="grd_20" ><br><br>
+    
+     <label for="2021">2021</label>
+     <input type="radio" name="2020" id="" value="grd_21" ><br><br>
+    
+     <label for="2022">2022</label>
+     <input type="radio" name="2020" id="" value="grd_22" ><br><br>
+
+     <label for="2023">2023</label>
+     <input type="radio" name="2020" id="" value="grd_23" ><br><br>
+
+    </div>
+
+    <div class="box3 box-wrapper">
+        <label for="resume">Submit your resume</label>
+        <input type="file" name="" id=""><br><br>
+    </div>
+    <div class="container">
+        <a href="./std_feedback_page2.html"class="submit btn  btn-secondery text-red" >Submit</a>
+    </div>
+</form>
+</body>
+</html>
